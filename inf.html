@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>background-image</title>
+        <style>
+            table {
+                width: 100%; border-spacing: 0;
+            }
+        body {
+            background-image: url('S:/VS Code projects/1x/cloud1.png'); /* Путь к фоновому изображению */
+            background-color: #7eff7a79; /* Цвет фона */
+        }
+        </style>
+    </head>
+    <body>
+        <p><h1><b>اختراق مزدوج</b></h1></p>
+        <!-- <audio
+            controls
+            src="D:\OneDrive\Документы\Image-Line\FL Studio\Projects/Lunar_strain.mp3"></audio> -->
+        <audio
+            controls
+            src="D:\Загрузки/Lunar_strain.mp3"></audio>
+            <br>
+            <br>
+        <video width="960" height="540" controls poster="" >
+            <source src="D:\Загрузки/Промова Біллі Херрінгтона (Billy Herrington's Speech) [UkrTrashDub].mp4" type="video/mp4">
+        </video>
+        <br>
+        <button onclick="myFunction()">Shrimp</button>
+        <div id=mydiv style='display: block'></div>
+        <script>
+            var inc=0;
+            function myFunction() {
+                inc=inc+1;
+                if (inc > 0){
+                    mydiv.innerText = inc;
+                    mydiv.style.display = "block"; // появление текста
+                    setTimeout(function(){mydiv.style.display = "none";}, 120000); // исчезновение текста
+                    }
+                }               
+        </script>
+    </body>
+</html>
+
